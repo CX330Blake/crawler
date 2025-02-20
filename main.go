@@ -20,6 +20,6 @@ func main() {
 	var resultMap = make(map[string]int)
 	crawlPage(baseURL, baseURL, resultMap)
 
-	fmt.Printf("%v\n", len(resultMap))
+	// fmt.Printf("%v\n", len(resultMap))
 
 }
